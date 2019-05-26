@@ -9,6 +9,7 @@ namespace IterationLoopDrill
 {
     class Program
     {
+        private static int i;
         static void Main(string[] args)
         {
             Console.WriteLine("\n");                      //new line for space
@@ -97,6 +98,14 @@ namespace IterationLoopDrill
 
             //Unique string loop
 
+
+
+
+
+
+
+
+
             List<string> myList = new List<string>() { "John", "Paul", "George", "Ringo"};                      //string array for drill and issigns to myList
             Console.WriteLine("\n");                                                                            //new line for space
             Console.WriteLine("                              *****HINT****");                                   //text to screen
@@ -108,7 +117,7 @@ namespace IterationLoopDrill
             int index = myList.IndexOf(fname);                            //finds index of fname in myList array               
             for (int i = 0; i <= myList.Count; i++)                       //start of for loop, assigns i =  0 and adds 1 to i for each loop
             {
-                if (index >= 0 && index < myList.Count)              //check for match,if true, get index  
+                if (index >= 0 && index < myList.Count)                   //check for match,if true, get index  
                 {
                     Console.WriteLine("His index in the list is {0}.", index); //writes text and fname to screen
                     break;
@@ -123,53 +132,69 @@ namespace IterationLoopDrill
             Console.ReadLine();                                                                                   //waiting for user to press enter
             Console.Clear();                                                                                      //clears screen
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             //Identical string list
 
-            List<string> memName = new List<string>() { "Glenn", "Don", "Don", "Joe", "Randy",};                    //string array for drill
+            List<string> memName = new List<string>() { "Glenn", "Don", "Don", "Joe", "Randy" };                    //string array for drill
             Console.WriteLine("           **********HINT********");                                                 //write text to screen
             Console.WriteLine("           Glenn Fry, Don Henley, Don Felder, Joe Walsh and Randy Meisner");         //write text to screen
             bool name = false;                                                                                      //assigns name as false
             Console.WriteLine("Enter only the first name any of the band members of the Eagles to see their index in the list."); //text to screen
             string bandfname = Console.ReadLine();                                                              //takes user input and assigns it to bandfname
-            for (int i = 0; i < memName.Count; i++)                                                             //start of for loop, assigns i =  0 and adds 1 to i for each loop
+            for (int i = 0; i < memName.Count; i++)                                                         //start of for loop, assigns i =  0 and adds 1 to i for each loop
             {
-                if (bandfname == memName[i])                                                                    //if user input matches element in array then go to the next line
-                    name = true;                                                                                
-                    Console.WriteLine("His index in the list is " + i);                                         //text to screen and i                                       
-                Console.ReadLine();                                                                             //waiting for user to press enter
-            }
-            
-            if (name == false)                                                                                  //if name is false
-            {
-                Console.WriteLine("Sorry, but the entered name is not a member of the Eagles band...");         //write text to screen
-                Console.WriteLine("Press enter to continue...");                                                      //directions to user
-                Console.ReadLine();                                                                                   //waiting for user to press enter
-                Console.Clear();                                                                                      //clears screen
-            }
-
-            //Two identical strings
-
-            List<string> carList = new List<string>() {"Chevy", "Chevy", "Ford", "Ford",  "Dodge" };        //string array for drill anssigns to carList
-            Console.WriteLine("The string for this exercise is Chevy, Chevy, Ford, Ford, Dodge");        //write text to screen
-            var duplicates = new List<string>();                                                   //assigns new element to duplicates                                              
-            foreach (string item in carList)                                                       //repeats check for each element in array
-            {
-                if (!duplicates.Contains(item))                                                //if item doesnt match      
+                if (bandfname == memName[i])                                                                        
                 {
-                    duplicates.Add(item);                                                      //add item to duplicates
-                    Console.WriteLine("YEP! We have a match!!!");                              //write text to screen
-                    Console.ReadLine();                                                        //waiting for user to press enter
-                    break;
-                }
-                else
-                {
-                    Console.WriteLine("There is NOT a duplicate.");                             //write text to screen
+                    name = true;                                                                                    //if name matches      
+                    Console.WriteLine("The index # is " + i);                                                       //write index of name
                     Console.ReadLine();
                 }
             }
-            foreach (string match in duplicates)                                                    //for each duplictae
+            if (name == false)                                                                                       //name doesnt match
             {
-                Console.WriteLine("The Match is {0}.", match);                                      //write text to screen and match
+                Console.WriteLine("That is not a member of the band.");                                              //write text to screen       
+                Console.WriteLine("Press enter to continue...");                                                     //directions to user
+                Console.ReadLine();                                                                                  //waiting for user to press enter
+                Console.Clear();                                                                                     //clears screen
+            }
+
+
+            //Two identical string list using foreach
+
+
+            Dictionary<int, int> dupNum = new Dictionary<int, int>();
+
+            int[] test = new int[] { 1, 1, 1, 2, 2, 3, 4, 5, 6 };                  // Array list
+            Console.WriteLine("This is the array list 1, 1, 1, 2, 2, 3, 4, 5, 6"); //writes array to screen
+
+                
+            foreach (int duplicate in test)                                        // Start of loop and assigns value of test to value
+            {
+                if (dupNum.ContainsKey(duplicate))                                // Check if we have found this key before
+                {
+                   dupNum[duplicate]++;                                           // Key exists. Add number of occurrences for this key by one
+            }   
+                else
+                {                       
+                    dupNum.Add(duplicate, 1);                                     // This is a new key so add it. Number 1 indicates that this key has been found one time
+            }  
+            }                
+            foreach (int num in dupNum.Keys)                                      // Start foreach dupclicate to writeline
+            {
+            Console.WriteLine("Integer " + num.ToString() + " was found " + dupNum[num].ToString() + " times");// Write to scrren integer, text and how many times it accured
             }
             Console.WriteLine("We are done. Thank you for playing. Press enter to continue...");    //write text to screen
             Console.ReadLine();                                                                     //waiting for user to press enter
