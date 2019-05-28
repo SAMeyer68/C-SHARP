@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C_Sharp_Drill_Pg106", "C_Sharp_Drill_Pg106\C_Sharp_Drill_Pg106.csproj", "{7FEDE27C-5197-4988-A2E4-28E3E5A5E08E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEDE27C-5197-4988-A2E4-28E3E5A5E08E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEDE27C-5197-4988-A2E4-28E3E5A5E08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEDE27C-5197-4988-A2E4-28E3E5A5E08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEDE27C-5197-4988-A2E4-28E3E5A5E08E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0411094C-B9F4-4E3B-B27E-925E64E2FEDC}
+	EndGlobalSection
+EndGlobal
