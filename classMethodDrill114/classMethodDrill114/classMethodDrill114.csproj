@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{03E0B623-1102-4D52-9E7A-886D0FF6933A}</ProjectGuid>
+    <ProjectGuid>{0E47ADA1-823E-4B89-91D7-48E51A4E9947}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>voidMethodpg</RootNamespace>
-    <AssemblyName>voidMethodpg</AssemblyName>
+    <RootNamespace>classMethodDrill114</RootNamespace>
+    <AssemblyName>classMethodDrill114</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\mathInt.cs">
-      <Link>mathInt.cs</Link>
-    </Compile>
-    <Compile Include="..\..\VoidMethodpg113\Program.cs">
-      <Link>Program.cs</Link>
-    </Compile>
+    <Compile Include="..\..\Mathpg114.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
