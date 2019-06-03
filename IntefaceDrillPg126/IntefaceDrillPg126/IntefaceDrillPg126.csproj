@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}</ProjectGuid>
+    <ProjectGuid>{29F1C3BD-8893-4624-9F78-3214CF4E6A06}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbstractDrillPg124</RootNamespace>
-    <AssemblyName>AbstractDrillPg124</AssemblyName>
+    <RootNamespace>IntefaceDrillPg126</RootNamespace>
+    <AssemblyName>IntefaceDrillPg126</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Employee.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
