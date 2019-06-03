@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbdtractDrillPg124", "AbdtractDrillPg124\AbdtractDrillPg124.csproj", "{2962D313-09A4-48A7-8546-135300B3DC9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractDrillPg124", "AbstractDrillPg124\AbstractDrillPg124.csproj", "{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2962D313-09A4-48A7-8546-135300B3DC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2962D313-09A4-48A7-8546-135300B3DC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2962D313-09A4-48A7-8546-135300B3DC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2962D313-09A4-48A7-8546-135300B3DC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {95615355-5F9D-4621-BC62-8B6745781A4C}
+		SolutionGuid = {F2541B17-AD06-489A-899C-5950EEB42674}
 	EndGlobalSection
 EndGlobal

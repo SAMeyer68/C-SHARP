@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AbdtractDrillPg124")]
+[assembly: AssemblyTitle("AbstractDrillPg124")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AbdtractDrillPg124")]
+[assembly: AssemblyProduct("AbstractDrillPg124")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2962d313-09a4-48a7-8546-135300b3dc9a")]
+[assembly: Guid("38aafd29-c6da-4ed2-b146-9a745af319d3")]
 
 // Version information for an assembly consists of the following four values:
 //

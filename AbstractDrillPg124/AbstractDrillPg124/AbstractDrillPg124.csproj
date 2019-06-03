@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2962D313-09A4-48A7-8546-135300B3DC9A}</ProjectGuid>
+    <ProjectGuid>{38AAFD29-C6DA-4ED2-B146-9A745AF319D3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>AbdtractDrillPg124</RootNamespace>
-    <AssemblyName>AbdtractDrillPg124</AssemblyName>
+    <RootNamespace>AbstractDrillPg124</RootNamespace>
+    <AssemblyName>AbstractDrillPg124</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,10 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Employee.cs" />
-    <Compile Include="IQuittable.cs" />
-    <Compile Include="..\Person.cs">
-      <Link>Person.cs</Link>
-    </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
