@@ -8,13 +8,13 @@ namespace InterfaceDrillPg126
 {
     public class Employee : Person, IQuittable
     {
-        public override void SayName()
+        public override void SayName()                  //overrides rules to allow to inherit SayName
         {
-            base.SayName();
+            base.SayName();                             //inherit Base to SayName
         }
         public void Quit()
         {
-            throw new NotImplementedException();
+            throw new NotImplementedException();          //Exception for error
         }
     }
 }

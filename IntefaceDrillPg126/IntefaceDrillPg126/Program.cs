@@ -10,13 +10,13 @@ namespace InterfaceDrillPg126
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Interface Drill Page 126");
-            Console.WriteLine("\n");
-            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
-            employee.SayName();
-            Console.WriteLine("\n");
-            Console.WriteLine("Press enter to exit...");
-            Console.ReadLine();
+            Console.WriteLine("Interface Drill Page 126");                                      //writes to screen
+            Console.WriteLine("\n");                                                            //new line
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };  //assigns new names to variables nad then to employee
+            employee.SayName();                                                                 //assigns employee to SayName
+            Console.WriteLine("\n");                                                            //new line
+            Console.WriteLine("Press enter to exit...");                                        //writes to screen
+            Console.ReadLine();                                                                 //waiting user input
         }
 
         static void Quit(IQuittable employee)
