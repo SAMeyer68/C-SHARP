@@ -14,7 +14,7 @@ namespace AbstractDrillPg124
 
         {
 
-            base.SayName();
+            base.SayName();         //assigns attributes from Base to SayName
 
         }
 

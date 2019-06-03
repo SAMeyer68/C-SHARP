@@ -12,7 +12,7 @@ namespace AbstractDrillPg124
         public string LastName { get; set; }
         public virtual void SayName()
         {
-            Console.WriteLine("Employee: " + FirstName + " " + LastName);
+            Console.WriteLine("Employee: " + FirstName + " " + LastName);   //write to screen
         }
     }
 }

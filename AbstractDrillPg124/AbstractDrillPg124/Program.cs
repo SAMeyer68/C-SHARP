@@ -10,14 +10,14 @@ namespace AbstractDrillPg124
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("\n");
-            Console.WriteLine("AbdtractDrillPg124");
-            Console.WriteLine("\n");
-            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
-            employee.SayName();
-            Console.WriteLine("\n");
-            Console.WriteLine("Hit enter to exit...");
-            Console.ReadLine();
+            Console.WriteLine("\n");                                         //new line
+            Console.WriteLine("AbdtractDrillPg124");                         //header
+            Console.WriteLine("\n");                                         //new line
+            Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" }; //assigning name to employee
+            employee.SayName();                                              //implement SayName method from employee class
+            Console.WriteLine("\n");                                         //new line
+            Console.WriteLine("Hit enter to exit...");                       //write to screen
+            Console.ReadLine();                                              //waiting user input
         }
     }
 }
