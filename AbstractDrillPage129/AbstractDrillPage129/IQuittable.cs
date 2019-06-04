@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OverLoadDrillPage129
+namespace AbstractDrillPage129
 {
     interface IQuittable
     {
