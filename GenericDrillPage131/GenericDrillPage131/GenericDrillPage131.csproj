@@ -46,7 +46,9 @@
     <Compile Include="Employee.cs" />
     <Compile Include="IQuittable.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
